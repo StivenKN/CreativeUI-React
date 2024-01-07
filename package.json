@@ -1,12 +1,10 @@
 {
   "name": "@conanghs/creativeui",
   "version": "1.0.0-Alpha",
+  "private": "false",
   "description": "Simple JSX UI components using CreativeUI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ConanGH-S"
-  },
   "files": [
     "dist"
   ],
