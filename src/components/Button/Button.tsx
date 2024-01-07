@@ -1,26 +1,16 @@
 import {type HTMLAttributes, type ReactNode} from 'react';
-import styled from 'styled-components';
-
-const ButtonStyles = styled.button`
- background: rgb(0, 119, 255);
- padding: 1rem;
- border: none;
- border-radius: 0.5rem;
- cursor: pointer;
- transition: background 0.3s ease; 
-`;
 
 type ButtonProps = {
 	children: ReactNode;
-	background?: string;
+	backgroundColor?: string;
 	className?: string;
 } & HTMLAttributes<HTMLElement>;
 
-function Button({background, children, className}: ButtonProps): JSX.Element {
+function Button({backgroundColor = 'rgb(0, 119, 255)', children, className}: ButtonProps): JSX.Element {
 	return (
-		<ButtonStyles style={{background}} className={`${className}`}>
+		<button style={{backgroundColor, padding: '1rem', border: 'none', borderRadius: '0.5rem', cursor: 'pointer'}} className={`${className}`}>
 			{children}
-		</ButtonStyles>
+		</button>
 	);
 }
 

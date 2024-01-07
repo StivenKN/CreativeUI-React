@@ -1,13 +1,13 @@
 {
   "name": "@conangh/creative-ui",
-  "version": "1.0.2-Alpha",
+  "version": "1.0.3-Alpha",
   "description": "Simple JSX UI components using CreativeUI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/ConanGH-S/CreativeUI/issues",
     "email": "blandon0207s@gmail.com"
   },
@@ -47,7 +47,6 @@
     "rollup": "^4.9.4",
     "rollup-plugin-dts": "^6.1.0",
     "sass": "^1.69.7",
-    "styled-components": "^6.1.6",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
   }
