@@ -1,7 +1,7 @@
 {
-  "name": "@conangh/creative-ui",
-  "version": "1.0.4-Alpha",
-  "description": "Simple JSX UI components using CreativeUI",
+  "name": "@creative-ui/react",
+  "version": "1.0.0-alpha",
+  "description": "Simple React UI components using CreativeUI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
