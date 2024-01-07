@@ -1,5 +1,5 @@
 {
-  "name": "@conangh-s/creative-ui",
+  "name": "@conanghs/creativeui",
   "version": "1.0.0-Alpha",
   "description": "Simple JSX UI components using CreativeUI",
   "main": "dist/cjs/index.js",
