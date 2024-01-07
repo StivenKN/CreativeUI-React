@@ -1,6 +1,6 @@
 {
   "name": "@conangh/creative-ui",
-  "version": "1.0.3-Alpha",
+  "version": "1.0.4-Alpha",
   "description": "Simple JSX UI components using CreativeUI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -29,6 +29,10 @@
   "author": "conangh",
   "license": "ISC",
   "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
