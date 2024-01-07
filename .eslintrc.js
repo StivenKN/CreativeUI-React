@@ -38,5 +38,6 @@ module.exports = {
 		'react',
 	],
 	rules: {
+		'@typescript-eslint/consistent-type-definitions': 'off',
 	},
 };

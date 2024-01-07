@@ -1,4 +1,4 @@
-import {type ButtonHTMLAttributes, type ReactNode} from 'react';
+import {type HTMLAttributes, type ReactNode} from 'react';
 import styled from 'styled-components';
 
 const ButtonStyles = styled.button`
@@ -11,9 +11,10 @@ const ButtonStyles = styled.button`
 `;
 
 type ButtonProps = {
+	children: ReactNode;
 	background?: string;
-	children?: ReactNode | ReactNode[];
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+	className?: string;
+} & HTMLAttributes<HTMLElement>;
 
 function Button({background, children, className}: ButtonProps): JSX.Element {
 	return (
