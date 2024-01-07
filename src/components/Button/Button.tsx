@@ -1,4 +1,4 @@
-import {type ReactNode} from 'react';
+import {type ButtonHTMLAttributes, type ReactNode} from 'react';
 import styled from 'styled-components';
 
 const ButtonStyles = styled.button`
@@ -10,12 +10,12 @@ const ButtonStyles = styled.button`
  transition: background 0.3s ease; 
 `;
 
-type ButtonProps = HTMLButtonElement & {
+type ButtonProps = {
 	background?: string;
-	children: ReactNode | ReactNode[];
-};
+	children?: ReactNode | ReactNode[];
+} & ButtonHTMLAttributes<HTMLButtonElement>;
 
-function Button({background, children, className}: ButtonProps) {
+function Button({background, children, className}: ButtonProps): JSX.Element {
 	return (
 		<ButtonStyles style={{background}} className={`${className}`}>
 			{children}

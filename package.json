@@ -1,13 +1,21 @@
 {
-  "name": "@conanghs/creativeui",
-  "version": "1.0.0-Alpha",
-  "private": "false",
+  "name": "creative-ui",
+  "version": "1.0.1-Alpha",
   "description": "Simple JSX UI components using CreativeUI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
+   "bugs": {
+    "url": "https://github.com/ConanGH-S/CreativeUI/issues",
+    "email": "blandon0207s@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConanGH-S/CreativeUI.git"
+  },
+  "homepage": "https://github.com/ConanGH-S/CreativeUI",
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
